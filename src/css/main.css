@@ -1,1 +1,51 @@
-/* Your CSS here. */
+body {
+  background-color: white;       
+  font-family: Calibri, sans-serif;
+  margin: 0;
+}
+
+.card {
+  background-color: #777777;    
+  width: 500px;
+  color: white;
+  margin: 50px auto;
+  padding: 25px;
+  border-radius: 10px; 
+  text-align: center;    
+}
+
+.profile-image {
+  height: 150px;
+  width: 150px;          
+  object-fit: cover;             
+  margin-bottom: 10px;      
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  font-weight: bold;
+  color: #c5a3ff;               
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.email {
+    font-style: italic;
+}
+
+.info {
+  margin-top: 20px;
+  text-align: left;           
+  line-height: 1.6;
+}
